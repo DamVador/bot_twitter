@@ -1,0 +1,15 @@
+WARN: Unresolved or ambigious specs during Gem::Specification.reset:
+      rake (>= 0)
+      Available/installed versions of this gem:
+      - 13.0.1
+      - 12.3.2
+WARN: Clearing out unresolved specs. Try 'gem cleanup <gem>'
+Please report a bug if this causes problems.
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/openssl/buffering.rb:125:in `sysread': end of file reached (EOFError)
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/openssl/buffering.rb:125:in `readpartial'
+	from /Library/Ruby/Gems/2.6.0/gems/twitter-7.0.0/lib/twitter/streaming/connection.rb:25:in `block in stream'
+	from /Library/Ruby/Gems/2.6.0/gems/twitter-7.0.0/lib/twitter/streaming/connection.rb:21:in `loop'
+	from /Library/Ruby/Gems/2.6.0/gems/twitter-7.0.0/lib/twitter/streaming/connection.rb:21:in `stream'
+	from /Library/Ruby/Gems/2.6.0/gems/twitter-7.0.0/lib/twitter/streaming/client.rb:123:in `request'
+	from /Library/Ruby/Gems/2.6.0/gems/twitter-7.0.0/lib/twitter/streaming/client.rb:38:in `filter'
+	from lib/stream.rb:22:in `<main>'
